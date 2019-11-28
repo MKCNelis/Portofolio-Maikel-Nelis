@@ -1,11 +1,12 @@
+:root
+
+
 /*Javascript*/
 .body{
   padding-top: 35vh;
   background: #000;
   color: #fff;
 }
-
-  /*Javascript*/
 .entry{
   font-size: 400%;
   font-weight: bold;
@@ -31,7 +32,7 @@
 /*navbar usabilities */
 #navbar {   
   overflow: hidden;
-  background-color: #330000;
+  background-color: #90d47f;
   position: fixed;
   text-align: center;
   top: 0;
@@ -62,7 +63,7 @@
   margin-top: 30px;   
   z-index: -1;
 }
-
+/*expalining the*/
 .explain_Lab{
   background:rgb(199, 199, 199);
   color:azure;  
