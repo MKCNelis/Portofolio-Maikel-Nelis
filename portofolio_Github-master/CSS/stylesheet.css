@@ -21,6 +21,13 @@ Main
   width: auto;
 }
  
+.entry2{
+  animation-delay: 5s;
+  font-size: 400%;
+  font-weight: bold;
+  width: auto;
+}
+ 
 
 .typed-cursor{
   opacity: 1;
