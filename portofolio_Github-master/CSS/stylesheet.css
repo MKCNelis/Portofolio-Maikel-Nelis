@@ -44,7 +44,7 @@ Main
 /*navbar usabilities */
 #navbar {   
   overflow: hidden;
-  background-color: #90d47f;
+  background-color: var(--MainPrimaryColor);
   position: fixed;
   text-align: center;
   top: 0;
@@ -63,8 +63,8 @@ Main
 }
 
 #navbar a:hover {
-  background: #ccffcc;    
-  color: #330000;   
+  background: var(--ShadeOfBlack);    
+  color: var(--ShadeOFGray);   
 }
 
 .main {
@@ -75,7 +75,7 @@ Main
   margin-top: 30px;   
   z-index: -1;
 }
-/*expalining the*/
+/*expalining the project styling*/
 .explain_Lab{
   background:rgb(199, 199, 199);
   color:azure;  
@@ -90,4 +90,20 @@ Main
   background-color: #000000ff;
   z-index: 4
 }
+/*containers*/
+.container{
+  width: 90%;
+  margin-left: 5%;
 
+}
+.innercontainer{
+  width: 85%;
+  margin-left: 5%;
+
+}
+
+.blockcontainer{
+  width: 80%;
+  margin-left: 5%;
+}
+/*end your containers*/
