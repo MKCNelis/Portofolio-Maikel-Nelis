@@ -1,7 +1,15 @@
-:root
+:root{
+  --MainPrimaryColor      :#0B132B;/*darkblue color*/
+  --ShadeOfBlack          :#0E0E0F;/*a Blackish color*/
+  --ShadeOFGray           :#E8EDF2;/*a light shade of gray*/
+  --ShadeOfBlue           :#6FFFE9;/*a Light blue color*/
+  --DarkerShadeOfBlue     :#5BC0BE;/*a darker light blue color*/
 
+}
+Main 
 
-/*Javascript*/
+/*-------------------------------------------------Javascript--------------------------------------------------*/
+
 .body{
   padding-top: 35vh;
   background: #000;
@@ -29,6 +37,10 @@
     opacity: 1}
 }
 /*---------------------------------------------------end of css for java---------------------------------------------- */
+.introPage{
+  background-color: var(--MainPrimaryColor);
+  color: var(--ShadeOFGray);
+ }
 /*navbar usabilities */
 #navbar {   
   overflow: hidden;
@@ -56,8 +68,8 @@
 }
 
 .main {
-  background-color: #fff;
-  color:#330000;
+  background-color: var(--ShadeOFGray) ;
+  color:var(--ShadeOfBlack);
   font-family: Verdana;
   padding: 16px;  
   margin-top: 30px;   
