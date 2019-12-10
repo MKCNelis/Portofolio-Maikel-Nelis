@@ -23,9 +23,10 @@ Main
  
 .entry2{
   animation-delay: 5s;
-  font-size: 400%;
+  font-size: 200%;
   font-weight: bold;
   width: auto;
+  
 }
  
 
@@ -115,6 +116,13 @@ Main
 }
 /*end your containers*/
 .Logo{
-  height: 10%;
-  width: 10%;
+
+  
+}
+.rotateimg180 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
