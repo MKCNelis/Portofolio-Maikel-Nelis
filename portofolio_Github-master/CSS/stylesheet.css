@@ -64,7 +64,7 @@ Main
   background-color: 000000;
   float: center ;
   display: block;
-  color: #ccffcc;
+  color: var(--DarkerShadeOfBlue);
   padding: 14px 14px;
   text-decoration: none;
   font-size: 17px;
@@ -123,5 +123,5 @@ Main
 }
 .pdf-files{
 width: 100%;
-height: 100%;
+height: 10%;
 }
